@@ -41,6 +41,7 @@ header{
     display: flex;
     gap: 70px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card{
@@ -80,5 +81,5 @@ input[type="number"]{
 footer{
     text-align: center;
     padding: 15px;
-    font-size: 1rem;
+    font-size: 2rem;
 }
