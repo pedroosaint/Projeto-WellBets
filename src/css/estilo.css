@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #eceb9b;
+    font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #15b66b;
+    box-shadow: 3px 3px 4px #948a3d;
+    padding: 20px;
+}
+
+#Titulo{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#Destaque{
+    margin-left: 40px;
+}
+
+.container{
+    padding: 20px;
+    flex: 1;
+}
+
+.container h2{
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.grid-partidas{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 230px;
+    background-color: #b9b08a;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 8px  #948a3d;
+}
+
+.card h5{
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+.card p{
+    margin-bottom: 15px;
+}
+
+.input-partida{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="number"]{
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    background-color: #d9d9d9;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+}
