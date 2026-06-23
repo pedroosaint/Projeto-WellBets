@@ -4,38 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/estilo.css">
-    <title>WellBet</title>
+    <title>WellBets</title>
 </head>
 <body>
     <header>
         <h1 id="Titulo"> Well Bets <span id="Destaque">2026</span></h1>
     </header>
-    <main id ="container">
+    <main class ="container">
         <h2>Proximas Partidas</h2>
-        <section class="card">
-            <div class="top-card">
-            <h2>Brasil vs Haiti</h2>
-            <p>21/06 - 21:30</p>
-            <input class="Palpite" type="number" min="1" max="10">
+        
+        <section class="grid-partidas">
+            <article class="card">
+                <h5>Brasil vs Haiti</h5>
+                <p>21/06 - 21:30</p>
+                <div class="input-partida"></div>
+                    <input type="number" min="0" max="10" placeholder="Brasil" id="time1-1">
+                    <input type="number" min="0" max="10" placeholder="Haiti" id="time2-1">
+                </div>
+            </article>
             
-            <btn>
-                <input type="button">
-            </btn>
-            </div>
-        </section>
-            <section class="card">
-            <div class="top-card">
-            <h2>Holanda vs Japão</h2>
-            <p>15/06 - 16:00<p>
-            <input class="Palpite" type="number" min="1" max="10">
-            <input type="button">
-            <input class="Palpite" type="number" min="1" max="10">
-            <btn>
-            <input type="button">
-            </btn>
-            </div>
+            <article class="card">
+                <h5>Holanda vs Japão</h5>
+                <p>21/06 - 21:30</p>
+                <div class="input-partida"></div>
+                    <input type="number" min="0" max="10" placeholder="Brasil" id="time1-1">
+                    <input type="number" min="0" max="10" placeholder="Haiti" id="time2-1">
+                </div>
         </section>
     </main>
-
+    <footer>© - 2026 - Bolão</footer>
 </body>
 </html>
